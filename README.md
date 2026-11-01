@@ -75,20 +75,20 @@ Before the analysis, I wrote down what I expected. Here is how it held up.
 ## Figures
 
 **Wages explain a lot of the ranking, but not equally every season**
-![Per-season Spearman correlation](figures/Spearman_Correlation_Coefficient_of_Log_Wage_Share_vs_Points_Per_Season.png)
+![Per-season Spearman correlation]
 
 **Wage rank vs points rank (red line = finished exactly where wages predicted)**
-![Wage rank vs points rank](figures/Wg-v-Pts.png)
+![Wage rank vs points rank]
 
 **Club averages show a clear top tier, and a noisy, flatter relationship below it**
-![Average wage share vs average points](figures/Avg-comparisons.png)
+![Average wage share vs average points]
 
 **Model diagnostics: mild curvature, wider spread at the extremes, right-skewed residuals**
-![Residuals vs fitted](figures/Residuals.png)
-![Q-Q plot](figures/QQ_plot.png)
+![Residuals vs fitted]
+![Q-Q plot]
 
 **Average residual by club**
-![Average residual by club](figures/Resid-by-club.png)
+![Average residual by club]
 
 ---
 
@@ -116,8 +116,8 @@ Before the analysis, I wrote down what I expected. Here is how it held up.
 ## Reproducing the analysis
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/<gman08-maker>/<Premier-League-Project>.git
+cd <Premier-League-Project>
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
